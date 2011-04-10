@@ -148,6 +148,4 @@ endif
 obj-$(CONFIG_MSM7200A_TLMM)	+= tlmm-msm7200a.o
 obj-$(CONFIG_MSM8660_TLMM)	+= tlmm-msm8660.o msm8660-gpio.o
 obj-$(CONFIG_MACH_BLADE) += board-zte-blade-keypad.o board-zte-blade.o
-
 obj-$(CONFIG_MACH_RAISE) += board-raise.o board-raise-keypad.o
-
